@@ -6,14 +6,27 @@
     "version": "1.0.0",
     "permissions": [
         "notifications",
-        "tabs"
+        "activeTab",
+        "tabs",
+        "http://localhost/*",
+        "http://www.google.com/"
     ],
     "browser_action": {
         "default_icon": "./assets/images/icon.png",
         "default_title": "AutoShot",
         "default_popup": "index.html"
     },
+    "content_scripts": [
+        {
+            "matches": ["*://*/*"],
+            "css": ["styles.css"],
+            "js": ["assets/libs/jquery-3.2.1/jquery-3.2.1.min.js", "js/listeners.js"],
+            "run_at": "document_end",
+            "all_frames" : true
+        }
+    ],
     "background": {
-        "scripts": ["app.js"]
+        "scripts": [
+        ]
     }
 }
