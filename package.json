@@ -1,0 +1,23 @@
+{
+  "name": "autoshot",
+  "version": "1.0.0",
+  "description": "Screenshot Automation Tool",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/boweihan/autoshot.git"
+  },
+  "author": "Bowei Han",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/boweihan/autoshot/issues"
+  },
+  "homepage": "https://github.com/boweihan/autoshot#readme",
+  "dependencies": {
+    "easyimage": "^2.1.0",
+    "selenium-webdriver": "^3.5.0"
+  }
+}
