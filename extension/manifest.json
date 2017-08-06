@@ -1,0 +1,19 @@
+
+{
+    "manifest_version": 2,
+    "name": "AutoShot",
+    "description": "Let your screenshots update themselves",
+    "version": "1.0.0",
+    "permissions": [
+        "notifications",
+        "tabs"
+    ],
+    "browser_action": {
+        "default_icon": "./assets/images/icon.png",
+        "default_title": "AutoShot",
+        "default_popup": "index.html"
+    },
+    "background": {
+        "scripts": ["app.js"]
+    }
+}

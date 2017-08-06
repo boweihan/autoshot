@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.vs-icon-table > td {
+    padding: 5px 10px;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+.vs-icon-table > td:first-child {
+    border-left: none;
+}
+.vs-icon-table > td:last-child {
+    border-right: none;
+}
+.vs-icon-table > td:hover {
+    background-color: black;
+    color: white;
+}
+.vs-icon-table > td > a {
+    padding: 0px;
+}
+.vs-icon-table > td > a > i {
+    font-size: 2em;
+}
