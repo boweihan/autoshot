@@ -27,6 +27,8 @@
     ],
     "background": {
         "scripts": [
+            /* trick chrome into showing the background tab */
+            "./js/empty.js"
         ]
     }
 }
